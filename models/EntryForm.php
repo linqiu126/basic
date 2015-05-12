@@ -22,3 +22,14 @@ class EntryForm extends Model
         ];
     }
 }
+/*
+$model = new EntryForm();
+$model->name = 'Qiang';
+$model->email = 'bad';
+if ($model->validate()) {
+    // 验证成功！
+} else {
+    // 失败！
+    // 使用 $model->getErrors() 获取错误详情
+}
+*/
